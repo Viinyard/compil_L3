@@ -1,0 +1,8 @@
+float x=0.0
+float g(float x) {
+	 return x+40.
+}
+x >>
+x=x+g(2.)
+x >>
+

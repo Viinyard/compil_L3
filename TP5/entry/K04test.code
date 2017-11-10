@@ -1,0 +1,8 @@
+int x
+int y = 0 
+int z = 1
+int t = 2
+x <<
+if (x == 0)  y >>
+else if (x == 1)  z >>
+     else  t >>

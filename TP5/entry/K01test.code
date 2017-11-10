@@ -1,0 +1,14 @@
+int x
+int y = 0 
+int z = 1
+int endthen = 0
+int endelse = 0
+x <<
+while (x == 0 and endthen == 0){
+  y >>
+  endthen=1
+}
+while (x!= 0 and endelse == 0){
+  z >>
+  endelse=1
+}

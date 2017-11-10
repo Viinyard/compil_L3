@@ -1,0 +1,12 @@
+TP5 :
+Montrer que cette grammaire est ambiguë.
+	Cette grammaire est ambigue car il a plusieurs maniere de construire l'arbre syntaxique :
+	Pour 2 + 4 + 3 on peut faire 2 + (4 + 3) ou (2 + 4) + 3
+
+Modifier la grammaire comme ceci :
+expr
+   : expr '+'expr
+   | expr '*' expr
+   | ENTIER
+   ;
+Permet a antlr de mettre une priorite sur les expession '+' et donc d'executer '*' en dernier, le calcul est donc eronne car le resultat devrait etre 4 + (5 * 6) + 4, le resultat obtenu avec cette grammaire est (4 + 5) + (6 + 4).

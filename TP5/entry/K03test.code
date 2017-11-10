@@ -1,0 +1,17 @@
+int u = 1
+int z = 42
+if (z < u) u >> 
+   else z >>
+if (u >= z) u >>
+   else z >> 
+if (u-1 == z) u >>
+   else z >> 
+if (false ou z > u)  z >>
+   else u >>
+if (true et z > u)  z >>
+   else u >>
+if (non true) z >>
+   else u >>
+if (false ou non false et true) u >>
+   else z >>
+
